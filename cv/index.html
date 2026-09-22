@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CV — Sarah Yuzi Sandström</title>
-<meta name="description" content="Curriculum vitae of Sarah Yuzi Sandström, GRC candidate.">
+<meta name="description" content="Curriculum vitae of Sarah Yuzi Sandström — HR technology and systems, data protection and GRC.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..600&display=swap" rel="stylesheet">
@@ -26,8 +26,11 @@
 </header>
 <div style="max-width: 1240px; margin: 0 auto; padding: 88px 80px 112px">
 <h1 style="margin: 0; font-size: 68px; font-weight: 500; letter-spacing: -0.03em; line-height: 1">CV</h1>
-<p style="margin: 36px 0 0; max-width: 700px; font-size: 19px; line-height: 1.7; color: #3D4248">A concise overview of my experience, education and current GRC work.</p>
-<div style="margin-top: 36px"><a href="../documents/Sarah_Sandstrom_GRC_CV.pdf" download style="display: inline-block; padding: 14px 24px; background: #315D8C; color: #F8F8F6; font-size: 16px; font-weight: 500; border-radius: 3px">Download PDF ↓</a></div>
+<p style="margin: 36px 0 0; max-width: 700px; font-size: 19px; line-height: 1.7; color: #3D4248">A concise overview of my experience, education and current work across HR technology and systems, data protection and GRC.</p>
+<!-- PDF download button. Restore this line (and drop the new PDF into documents/)
+     once the updated CV is final; update the filename if it differs:
+<div style="margin-top: 36px"><a href="../documents/Sarah_Sandstrom_CV.pdf" download style="display: inline-block; padding: 14px 24px; background: #315D8C; color: #F8F8F6; font-size: 16px; font-weight: 500; border-radius: 3px">Download PDF ↓</a></div>
+-->
 <dl style="margin: 56px 0 0; display: grid; gap: 14px; max-width: 520px">
 <div style="display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 24px; align-items: baseline">
 <dt style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #656B73">Based in</dt>
@@ -79,29 +82,46 @@
 </div>
 <div style="max-width: 1240px; margin: 0 auto; padding: 0 80px 120px">
 <div style="border-top: 1px solid #17191C; padding-top: 28px; display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 64px">
-<h2 style="margin: 0; font-size: 30px; font-weight: 500; letter-spacing: -0.02em">Current GRC work</h2>
+<h2 style="margin: 0; font-size: 30px; font-weight: 500; letter-spacing: -0.02em">Selected projects</h2>
 <div style="max-width: 760px">
 <div style="display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 40px; align-items: baseline; padding: 24px 0; border-top: 1px solid #DEDCD5">
-<p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #315D8C; line-height: 1.6">Self-directed<br/>operational lab</p>
+<p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #315D8C; line-height: 1.6">2026 · HR systems<br/>&amp; data lifecycle</p>
 <div>
-<p style="margin: 0; font-size: 19px; font-weight: 600">GRC Ops Lab</p>
-<p style="margin: 10px 0 0; font-size: 17px; line-height: 1.65; color: #3D4248">Two live scenarios built in Python and Streamlit: one reconciles an authoritative HR population against a training export and surfaces structured findings, the other validates stored customer-assurance answers against current vulnerability and exception evidence. Broader GRC curriculum in development.</p>
-<p style="margin: 14px 0 0; font-size: 16px"><a href="https://grc-ops-lab-we3hi8j6vqdancbne495xv.streamlit.app/">Live demo ↗</a></p>
+<p style="margin: 0; font-size: 19px; font-weight: 600">HR ↔ LMS Reconciler</p>
+<p style="margin: 10px 0 0; font-size: 17px; line-height: 1.65; color: #3D4248">Investigated how Docebo and Peakon handle the user and data lifecycle and identified the gaps that create manual administrative work. Built a browser-only tool that reconciles HR and LMS exports — flagging missing accounts, leavers retaining access, permission mismatches and training-rule gaps — and auto-generates a remediation report. Runs entirely client-side, so no employee data leaves the browser.</p>
+<p style="margin: 14px 0 0; font-size: 16px"><a href="https://yuzi2021.github.io/hr-lms-reconciler/">Live demo ↗</a> <span style="color: #B4B2A9">·</span> <a href="https://github.com/yuzi2021/hr-lms-reconciler">Repository ↗</a></p>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 40px; align-items: baseline; padding: 24px 0; border-top: 1px solid #DEDCD5">
+<p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #315D8C; line-height: 1.6">Coursework<br/>backend build</p>
+<div>
+<p style="margin: 0; font-size: 19px; font-weight: 600">SkillPath Navigator <span style="font-weight: 400; color: #656B73">· Django / REST API</span></p>
+<p style="margin: 10px 0 0; font-size: 17px; line-height: 1.65; color: #3D4248">A relational data model for skills and learning paths with a CSV loader, six API endpoints, ORM-based analytics and an automated test suite.</p>
+<p style="margin: 14px 0 0; font-size: 16px; color: #656B73">Coursework · repository not public</p>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 40px; align-items: baseline; padding: 24px 0; border-top: 1px solid #DEDCD5">
+<p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #315D8C; line-height: 1.6">Automation<br/>&amp; AI tooling</p>
+<div>
+<p style="margin: 0; font-size: 19px; font-weight: 600">Career-digest automation <span style="font-weight: 400; color: #656B73">· GitHub Actions + AI</span></p>
+<p style="margin: 10px 0 0; font-size: 17px; line-height: 1.65; color: #3D4248">A scheduled agent that monitors job postings across target companies and drafts summaries — practical automation that reduces manual work using AI tools.</p>
+<p style="margin: 14px 0 0; font-size: 16px"><a href="https://github.com/yuzi2021/ai-digest-agent-demo">Repository ↗</a></p>
 </div>
 </div>
 <div style="display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 40px; align-items: baseline; padding: 24px 0; border-top: 1px solid #DEDCD5">
 <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #315D8C; line-height: 1.6">Applied<br/>workplace project</p>
 <div>
-<p style="margin: 0; font-size: 19px; font-weight: 600">Privacy &amp; Security Awareness</p>
-<p style="margin: 10px 0 0; font-size: 17px; line-height: 1.65; color: #3D4248">Workplace privacy and information-security research, a 57-page legally reviewed staff guidebook, and security-awareness training for non-technical staff.</p>
+<p style="margin: 0; font-size: 19px; font-weight: 600">Privacy &amp; Security Awareness Initiative</p>
+<p style="margin: 10px 0 0; font-size: 17px; line-height: 1.65; color: #3D4248">Researched workplace data-protection needs, authored a 57-page staff guide and delivered security-awareness training for non-technical users.</p>
+<p style="margin: 14px 0 0; font-size: 16px"><a href="https://www.theseus.fi/items/0a0d6240-02af-46a7-a733-f4bae8005e5d">Published ↗</a></p>
 </div>
 </div>
 <div style="display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 40px; align-items: baseline; padding: 24px 0; border-top: 1px solid #DEDCD5; border-bottom: 1px solid #DEDCD5">
-<p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #315D8C; line-height: 1.6">Automation &amp;<br/>continuous learning</p>
+<p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #315D8C; line-height: 1.6">Self-directed<br/>GRC sample</p>
 <div>
-<p style="margin: 0; font-size: 19px; font-weight: 600">GRC Change Monitor</p>
-<p style="margin: 10px 0 0; font-size: 17px; line-height: 1.65; color: #3D4248">Python and GitHub Actions workflow for structured horizon scanning of authoritative cybersecurity, privacy and AI-governance sources.</p>
-<p style="margin: 14px 0 0; font-size: 16px"><a href="https://grc-change-monitor-jvw82ubppznh6rcf3b8rhe.streamlit.app/">Live demo ↗</a></p>
+<p style="margin: 0; font-size: 19px; font-weight: 600">GRC Vendor Assessment <span style="font-weight: 400; color: #656B73">· demo</span></p>
+<p style="margin: 10px 0 0; font-size: 17px; line-height: 1.65; color: #3D4248">A vendor risk register and assessment workflow documenting evidence request and review, findings, conditional approval, residual-risk tracking and follow-up.</p>
+<p style="margin: 14px 0 0; font-size: 16px"><a href="https://github.com/yuzi2021/grc-vendor-assessment-demo">Repository ↗</a></p>
 </div>
 </div>
 </div>
@@ -156,7 +176,7 @@
 <div style="max-width: 760px; border-top: 1px solid #DEDCD5; border-bottom: 1px solid #DEDCD5; padding: 24px 0">
 <p style="margin: 0; font-size: 19px; font-weight: 600; line-height: 1.4">From Playgrounds to Pixels: Navigating Data Privacy and Ethical App Selection in Early Childhood Education</p>
 <p style="margin: 12px 0 0; font-size: 17px; line-height: 1.6; color: #3D4248">Nakou Zoi, Rashmi Purna Venkatesh, Yu Zi <span style="color: #B4B2A9">·</span> Laurea University of Applied Sciences, 2024</p>
-<p style="margin: 14px 0 0; font-size: 16px"><a href="https://www.theseus.fi/handle/10024/859284">Published page ↗</a> <span style="color: #B4B2A9">·</span> <a href="https://www.theseus.fi/bitstream/10024/859284/4/Venkatesh_Zi_Zoi.pdf">PDF ↗</a></p>
+<p style="margin: 14px 0 0; font-size: 16px"><a href="https://www.theseus.fi/items/0a0d6240-02af-46a7-a733-f4bae8005e5d">Published page ↗</a> <span style="color: #B4B2A9">·</span> <a href="https://www.theseus.fi/bitstream/10024/859284/4/Venkatesh_Zi_Zoi.pdf">PDF ↗</a></p>
 </div>
 </div>
 </div>
@@ -165,20 +185,20 @@
 <h2 style="margin: 0; font-size: 30px; font-weight: 500; letter-spacing: -0.02em">Skills</h2>
 <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; max-width: 760px">
 <div>
-<h3 style="margin: 0 0 20px; font-size: 16px; font-weight: 600">Operational GRC</h3>
-<p style="margin: 0; font-size: 16px; line-height: 1.7; color: #3D4248">Evidence request &amp; review · continuous compliance · control mapping · vendor-risk workflows · remediation tracking · risk / exception tracking · security awareness · customer questionnaire triage <span style="color: #656B73">(practice)</span></p>
+<h3 style="margin: 0 0 20px; font-size: 16px; font-weight: 600">HR systems &amp; operations</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.7; color: #3D4248">HR / LMS data reconciliation · joiner–mover–leaver lifecycle · access and permission review · training-rule and compliance gaps · people-data modelling · reporting and remediation workflows · process redesign to reduce manual admin</p>
 </div>
 <div>
-<h3 style="margin: 0 0 20px; font-size: 16px; font-weight: 600">Frameworks &amp; governance</h3>
-<p style="margin: 0; font-size: 16px; line-height: 1.7; color: #3D4248">ISO/IEC 27001 <span style="color: #656B73">(working knowledge)</span> · SOC 2 <span style="color: #656B73">(concepts and evidence model)</span> · GDPR <span style="color: #656B73">(applied)</span> · ISO/IEC 42001 <span style="color: #656B73">(developing)</span> · NIST AI RMF · NIST SP 800-61 · EU AI Act · DPIA / RoPA</p>
+<h3 style="margin: 0 0 20px; font-size: 16px; font-weight: 600">Data protection &amp; GRC</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.7; color: #3D4248">GDPR <span style="color: #656B73">(applied)</span> · employee-data protection · DPIA / RoPA · security awareness &amp; training · vendor-risk workflows · evidence request &amp; review · risk / exception tracking · ISO/IEC 27001 <span style="color: #656B73">(working knowledge)</span> · SOC 2 <span style="color: #656B73">(concepts and evidence model)</span></p>
 </div>
 <div>
 <h3 style="margin: 0 0 20px; font-size: 16px; font-weight: 600">Technical &amp; automation</h3>
-<p style="margin: 0; font-size: 16px; line-height: 1.7; color: #3D4248">Python · Git / GitHub · GitHub Actions · JSON / YAML · REST API concepts · Jira · Confluence · HTML / CSS · AI-assisted development</p>
+<p style="margin: 0; font-size: 16px; line-height: 1.7; color: #3D4248">Python · Django · REST APIs · relational data modelling / SQL · JavaScript · HTML / CSS · Git / GitHub · GitHub Actions · CSV / JSON / YAML · Jira · Confluence · AI-assisted development</p>
 </div>
 <div>
 <h3 style="margin: 0 0 20px; font-size: 16px; font-weight: 600">Communication</h3>
-<p style="margin: 0; font-size: 16px; line-height: 1.7; color: #3D4248">Professional written English · technical and regulatory writing · security-awareness training · stakeholder coordination · translating technical requirements for non-technical audiences</p>
+<p style="margin: 0; font-size: 16px; line-height: 1.7; color: #3D4248">Professional written English · technical and regulatory writing · security-awareness training · end-user training &amp; enablement · stakeholder coordination · translating technical requirements for non-technical audiences</p>
 </div>
 </div>
 </div>
@@ -187,11 +207,12 @@
 <div style="max-width: 1240px; margin: 0 auto; padding: 48px 80px 64px; display: flex; align-items: flex-end; justify-content: space-between; gap: 48px">
 <div>
 <p style="margin: 0; font-size: 16px; font-weight: 600">Sarah Yuzi Sandström</p>
-<p style="margin: 10px 0 0; font-size: 14px; color: #656B73">GRC · Customer Trust · Compliance Automation · Security Awareness</p>
+<p style="margin: 10px 0 0; font-size: 14px; color: #656B73">HR Technology &amp; Systems · Data Protection · GRC · Automation</p>
 </div>
 <div style="display: flex; align-items: baseline; gap: 28px; font-size: 14px">
 <a href="https://github.com/yuzi2021" style="color: #17191C">GitHub</a>
 <a href="https://www.linkedin.com/in/sarah-sandstr%C3%B6m-17338ab6/" style="color: #17191C">LinkedIn</a>
+<a href="mailto:sarahyuzisandstrom@gmail.com" style="color: #17191C">Email</a>
 <span style="color: #656B73">Finland</span>
 </div>
 </div>

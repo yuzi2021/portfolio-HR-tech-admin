@@ -1,20 +1,20 @@
 # Portfolio — Sarah Yuzi Sandström
 
-GRC · Customer Trust · Compliance Automation · Security Awareness
+HR Technology & Systems · Data Protection · GRC · Automation
 
-**Live site:** https://yuzi2021.github.io/portfolio-GRC/
+**Live site:** https://yuzi2021.github.io/portfolio-HR-tech-admin/
 
-A static portfolio presenting applied privacy, security-awareness and operational GRC work, built as plain HTML and CSS and deployed with GitHub Pages.
+A static portfolio presenting HR technology and systems work alongside applied data-protection and GRC projects, built as plain HTML and CSS and deployed with GitHub Pages.
 
 ## Pages
 
 - `/` — homepage
 - `/projects/` — project index
-- `/projects/grc-ops-lab/` — GRC Ops Lab
-- `/projects/privacy-security-awareness/` — Privacy & Security Awareness
-- `/projects/grc-change-monitor/` — GRC Change Monitor
+- `/projects/privacy-security-awareness/` — Privacy & Security Awareness case study
 - `/about/` — about
-- `/cv/` — CV, with a downloadable PDF at `documents/Sarah_Sandstrom_GRC_CV.pdf`
+- `/cv/` — CV
+
+The CV PDF has been removed pending an updated version. To restore the download button, drop the new PDF into `documents/` and uncomment the block above the contact list in `cv/index.html`, adjusting the filename to match.
 
 ## Run locally
 
@@ -27,3 +27,5 @@ Then open http://localhost:8000. Serve it this way rather than opening the files
 ## Structure
 
 Plain HTML per route with a shared `styles.css` for base styling and responsive breakpoints. Internal links are relative, so the site works both at the GitHub Pages sub-path and under a custom domain.
+
+Note that `styles.css` targets the inline `style` strings in the markup (for example `[style*="300px minmax(0, 1fr)"]` and `[style*="padding: 0 80px 128px"]`) to fold the desktop layout down for tablet and mobile. New markup should reuse those exact inline strings, or it will not respond at the breakpoints.

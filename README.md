@@ -14,7 +14,7 @@ A static portfolio presenting HR and learning technology operations work — use
 - `/about/` — about
 - `/cv/` — CV
 
-The CV PDF has been removed pending an updated version. To restore the download button, drop the new PDF into `documents/` and uncomment the block above the contact list in `cv/index.html`, adjusting the filename to match.
+The CV PDF lives at `documents/Sarah_Sandstrom_CV.pdf` and is linked from the download button at the top of `cv/index.html`. To swap in a newer version, replace that file, keeping the filename so the link stays valid.
 
 ## Run locally
 

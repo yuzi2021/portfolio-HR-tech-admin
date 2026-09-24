@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Projects — Sarah Yuzi Sandström</title>
-<meta name="description" content="HR technology, systems and data-protection projects by Sarah Yuzi Sandström.">
+<meta name="description" content="Learning-systems operations, testing, automation and documentation projects by Sarah Yuzi Sandström.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..600&display=swap" rel="stylesheet">
@@ -26,20 +26,20 @@
 </header>
 <div style="max-width: 1240px; margin: 0 auto; padding: 88px 80px 104px">
 <h1 style="margin: 0; font-size: 62px; font-weight: 500; letter-spacing: -0.03em; line-height: 1.05">Selected Projects</h1>
-<p style="margin: 40px 0 0; max-width: 720px; font-size: 19px; line-height: 1.7; color: #3D4248; text-wrap: pretty">Work across HR technology and systems, data protection and practical automation. Each entry is labelled clearly to distinguish applied workplace work, coursework and self-directed projects.</p>
+<p style="margin: 40px 0 0; max-width: 720px; font-size: 19px; line-height: 1.7; color: #3D4248; text-wrap: pretty">Work across learning-systems operations, testing, automation and documentation. Each entry is labelled clearly to distinguish applied workplace work, coursework and self-directed projects.</p>
 </div>
 <div style="max-width: 1240px; margin: 0 auto; padding: 0 80px 128px">
 <article style="display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 64px; padding: 32px 0 72px; border-top: 1px solid #17191C">
 <div>
-<p style="margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase; color: #315D8C; line-height: 1.6">01 · HR systems &amp;<br/>data lifecycle</p>
+<p style="margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase; color: #315D8C; line-height: 1.6">01 · Learning-systems<br/>operations QA</p>
 <dl style="margin: 40px 0 0; display: grid; gap: 20px">
 <div>
 <dt style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #656B73">Technology</dt>
 <dd style="margin: 6px 0 0; font-size: 14px; line-height: 1.5; color: #3D4248">JavaScript · Client-side only · GitHub Pages</dd>
 </div>
 <div>
-<dt style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #656B73">Capability</dt>
-<dd style="margin: 6px 0 0; font-size: 14px; line-height: 1.5; color: #3D4248">HR / LMS reconciliation · Joiner–mover–leaver · Access review · Remediation reporting</dd>
+<dt style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #656B73">Relevant</dt>
+<dd style="margin: 6px 0 0; font-size: 14px; line-height: 1.5; color: #3D4248">Learning systems · Troubleshooting · Reconciliation · Testing · Recurring-issue automation</dd>
 </div>
 <div>
 <dt style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #656B73">Year</dt>
@@ -49,10 +49,12 @@
 </div>
 <div>
 <h2 style="margin: 0; font-size: 46px; font-weight: 500; letter-spacing: -0.025em; line-height: 1.05">HR ↔ LMS Reconciler</h2>
-<p style="margin: 14px 0 0; font-size: 20px; font-weight: 500; color: #656B73">Reconciling HR and LMS exports without moving the data</p>
-<p style="margin: 32px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">I investigated how Docebo and Peakon handle the user and data lifecycle, and found the points where the two systems drift apart and create manual administrative work.</p>
-<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">The result is a browser-only tool that reconciles an HR export against an LMS export and flags missing accounts, leavers who still retain access, permission mismatches and training-rule gaps, then auto-generates a remediation report for the person who has to act on it.</p>
+<p style="margin: 14px 0 0; font-size: 20px; font-weight: 500; color: #656B73">Turning a repeated manual check into a systematic one</p>
+<p style="margin: 32px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">A browser-based tool that compares HR and LMS exports and flags records that may need investigation — missing accounts, leavers retaining access, permission mismatches and training-rule gaps — then generates a remediation report.</p>
+<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">The focus is operational rather than compliance-driven. The tool does not try to decide whether something is a violation; it identifies the issue, gives the administrator enough context to investigate it, and makes a repeated manual check systematic.</p>
 <p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">It runs entirely client-side. The exports are read in the browser and never uploaded, so a routine administrative check does not become a data-transfer decision.</p>
+<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">I built this for the kind of reconciliation problem a learning platform such as Docebo, and an engagement tool such as Peakon, create in day-to-day operations. I researched how these platforms handle the user and data lifecycle and where gaps appear — for example incomplete deprovisioning leaving active accounts for leavers, enrolment rules that do not reach staff who are already in a group, and manager and hierarchy data that does not sync automatically — then built a tool that flags exactly those cases.</p>
+<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">This is my own project informed by that research; I have not used Docebo or Peakon directly.</p>
 <div style="margin-top: 40px; display: flex; align-items: baseline; gap: 32px">
 <a href="https://yuzi2021.github.io/hr-lms-reconciler/" style="font-size: 17px; font-weight: 500; color: #17191C; border-bottom: 1px solid #315D8C; padding-bottom: 3px">Try live demo ↗</a>
 <a href="https://github.com/yuzi2021/hr-lms-reconciler" style="font-size: 17px; color: #315D8C">View repository ↗</a>
@@ -61,35 +63,45 @@
 </article>
 <article style="display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 64px; padding: 48px 0 64px; border-top: 1px solid #DEDCD5">
 <div>
-<p style="margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase; color: #315D8C; line-height: 1.6">02 · Coursework<br/>backend build</p>
+<p style="margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase; color: #315D8C; line-height: 1.6">02 · Building, testing<br/>&amp; troubleshooting</p>
 <dl style="margin: 40px 0 0; display: grid; gap: 20px">
 <div>
 <dt style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #656B73">Technology</dt>
-<dd style="margin: 6px 0 0; font-size: 14px; line-height: 1.5; color: #3D4248">Python · Django · REST API · Automated tests</dd>
+<dd style="margin: 6px 0 0; font-size: 14px; line-height: 1.5; color: #3D4248">Python · Django · REST API · Automated tests · ETL · PostgreSQL · Docker · CI</dd>
+</div>
+<div>
+<dt style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #656B73">Relevant</dt>
+<dd style="margin: 6px 0 0; font-size: 14px; line-height: 1.5; color: #3D4248">APIs · Testing · Debugging · Data validation · Version control · Automation · Documentation</dd>
 </div>
 <div>
 <dt style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #656B73">Status</dt>
-<dd style="margin: 6px 0 0; font-size: 14px; line-height: 1.5; color: #3D4248">Coursework · repository not public</dd>
+<dd style="margin: 6px 0 0; font-size: 14px; line-height: 1.5; color: #3D4248">Deployed and live · repository not public</dd>
 </div>
 </dl>
 </div>
 <div>
-<h2 style="margin: 0; font-size: 36px; font-weight: 500; letter-spacing: -0.025em; line-height: 1.1">SkillPath Navigator</h2>
-<p style="margin: 12px 0 0; font-size: 19px; font-weight: 500; color: #656B73">Django / REST API for skills and learning paths</p>
-<p style="margin: 28px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">A backend built around a relational data model, with a CSV loader for bulk data, six API endpoints, ORM-based analytics queries and an automated test suite.</p>
-<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">The modelling problem underneath it is the same one that sits under most HR systems: people, roles, skills and progress held as relationships that have to stay correct as they change.</p>
+<h2 style="margin: 0; font-size: 36px; font-weight: 500; letter-spacing: -0.025em; line-height: 1.1">SkillPath</h2>
+<p style="margin: 12px 0 0; font-size: 19px; font-weight: 500; color: #656B73">Building, testing and troubleshooting a working system</p>
+<p style="margin: 28px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">Built as a University of London Django REST API project over a job-posting dataset: a data model, ingestion and validation, API endpoints and an automated test suite. It is now deployed and running, with a web UI over the data and interactive API documentation through Swagger and ReDoc — so the API can be read and exercised in the browser rather than only described.</p>
+<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">What I found most useful was working through how the pieces interact — data ingestion, database behaviour, API requests, testing, user-facing behaviour — and diagnosing problems when they did not behave as expected. That is the part I would carry into an operations role: reproducing an issue, narrowing down where it actually sits, and confirming the fix.</p>
+<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">I later hardened it with structured ETL, PostgreSQL, Docker and CI, and deployed it.</p>
+<div style="margin-top: 36px; display: flex; align-items: baseline; gap: 32px">
+<a href="https://skillpath-navigator-bji1.onrender.com/app/" style="font-size: 17px; font-weight: 500; color: #17191C; border-bottom: 1px solid #315D8C; padding-bottom: 3px">View live app ↗</a>
+<a href="https://skillpath-navigator-bji1.onrender.com/" style="font-size: 17px; color: #315D8C">API &amp; docs ↗</a>
+</div>
 </div>
 </article>
 <article style="display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 64px; padding: 48px 0 64px; border-top: 1px solid #DEDCD5">
 <div>
 <p style="margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase; color: #315D8C; line-height: 1.6">03 · Automation &amp;<br/>AI tooling</p>
 <p style="margin: 32px 0 0; font-size: 14px; line-height: 1.5; color: #3D4248">GitHub Actions · Scheduled workflows · AI-assisted drafting</p>
+<p style="margin: 20px 0 0; font-size: 14px; line-height: 1.5; color: #656B73">Relevant: automation · recurring-issue reduction · AI tools</p>
 </div>
 <div>
 <h2 style="margin: 0; font-size: 36px; font-weight: 500; letter-spacing: -0.025em; line-height: 1.1">Career-digest automation</h2>
 <p style="margin: 12px 0 0; font-size: 19px; font-weight: 500; color: #656B73">GitHub Actions + AI</p>
-<p style="margin: 28px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">A scheduled agent that monitors job postings across a set of target companies and drafts summaries of what has changed.</p>
-<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">It is deliberately small and practical: the automation handles collection and drafting, while deciding what is worth acting on stays a human step.</p>
+<p style="margin: 28px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">A scheduled GitHub Actions and AI agent that monitors job postings and drafts summaries of what has changed.</p>
+<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">It is deliberately small and practical: automation that removes manual, repetitive work, while deciding what is worth acting on stays a human step.</p>
 <div style="margin-top: 36px">
 <a href="https://github.com/yuzi2021/ai-digest-agent-demo" style="font-size: 17px; font-weight: 500; color: #17191C; border-bottom: 1px solid #315D8C; padding-bottom: 3px">View repository ↗</a>
 </div>
@@ -97,32 +109,30 @@
 </article>
 <article style="display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 64px; padding: 48px 0 64px; border-top: 1px solid #DEDCD5">
 <div>
-<p style="margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase; color: #315D8C; line-height: 1.6">04 · Applied<br/>workplace project</p>
-<p style="margin: 32px 0 0; font-size: 14px; line-height: 1.5; color: #3D4248">GDPR · Security Awareness · Applied Work</p>
+<p style="margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase; color: #315D8C; line-height: 1.6">04 · Documentation<br/>&amp; training</p>
+<p style="margin: 32px 0 0; font-size: 14px; line-height: 1.5; color: #3D4248">Applied workplace project · GDPR · Staff workshop</p>
+<p style="margin: 20px 0 0; font-size: 14px; line-height: 1.5; color: #656B73">Relevant: documentation · training · translating complexity for end users</p>
 </div>
 <div>
-<h2 style="margin: 0; font-size: 36px; font-weight: 500; letter-spacing: -0.025em; line-height: 1.1">Privacy &amp; Security Awareness Initiative</h2>
-<p style="margin: 12px 0 0; font-size: 19px; font-weight: 500; color: #656B73">Research, practical guidance &amp; staff training</p>
-<p style="margin: 28px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">Applied research into workplace data-protection needs, carried out with management, IT, a Data Protection Officer and staff.</p>
-<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">I authored a 57-page practical staff guide from the findings and delivered the training that turned it into everyday decisions for non-technical users. The research was published as a co-authored thesis.</p>
+<h2 style="margin: 0; font-size: 36px; font-weight: 500; letter-spacing: -0.025em; line-height: 1.1">GDPR guide &amp; staff workshop</h2>
+<p style="margin: 12px 0 0; font-size: 19px; font-weight: 500; color: #656B73">Documentation and training for non-specialists</p>
+<p style="margin: 28px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">I created a practical GDPR guide and a staff workshop that translated complex requirements into usable guidance for people without a technical or legal background.</p>
+<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">The work started from what staff actually needed to decide in everyday situations, then produced documentation they could use at the point of the decision, plus the training that made it stick. The underlying research was published as a co-authored thesis.</p>
 <div style="margin-top: 36px; display: flex; align-items: baseline; gap: 32px">
 <a href="privacy-security-awareness/" style="font-size: 17px; font-weight: 500; color: #17191C; border-bottom: 1px solid #315D8C; padding-bottom: 3px">View case study →</a>
-<a href="https://www.theseus.fi/items/0a0d6240-02af-46a7-a733-f4bae8005e5d" style="font-size: 17px; color: #315D8C">Published thesis ↗</a>
+<a href="https://www.theseus.fi/items/0a0d6240-02af-46a7-a733-f4bae8005e5d" style="font-size: 17px; color: #315D8C">Published ↗</a>
 </div>
 </div>
 </article>
 <article style="display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 64px; padding: 48px 0 8px; border-top: 1px solid #DEDCD5">
 <div>
-<p style="margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase; color: #315D8C; line-height: 1.6">05 · Self-directed<br/>GRC sample</p>
-<p style="margin: 32px 0 0; font-size: 14px; line-height: 1.5; color: #3D4248">Vendor risk · Evidence review · Documentation</p>
+<p style="margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase; color: #656B73; line-height: 1.6">Supporting</p>
 </div>
 <div>
-<h2 style="margin: 0; font-size: 36px; font-weight: 500; letter-spacing: -0.025em; line-height: 1.1">GRC Vendor Assessment</h2>
-<p style="margin: 12px 0 0; font-size: 19px; font-weight: 500; color: #656B73">Vendor risk register &amp; assessment workflow <span style="color: #B4B2A9">·</span> demo</p>
-<p style="margin: 28px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">A vendor risk register and assessment workflow, documented end to end: evidence request and review, findings, conditional approval, residual-risk tracking and follow-up.</p>
-<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">Built as a documentation sample rather than production work — the purpose is to show how I structure vendor assessment and what I record at each step.</p>
-<div style="margin-top: 36px">
-<a href="https://github.com/yuzi2021/grc-vendor-assessment-demo" style="font-size: 17px; font-weight: 500; color: #17191C; border-bottom: 1px solid #315D8C; padding-bottom: 3px">View repository ↗</a>
+<h2 style="margin: 0; font-size: 30px; font-weight: 500; letter-spacing: -0.02em; line-height: 1.2">Responsible systems mindset</h2>
+<p style="margin: 22px 0 0; max-width: 680px; font-size: 18px; line-height: 1.7; color: #3D4248; text-wrap: pretty">My previous work in data protection and security-awareness projects made me attentive to permissions, personal data, documentation and responsible tool use — one part of good system administration, not the whole job.</p>
+<div style="margin-top: 28px">
+<a href="https://github.com/yuzi2021/grc-vendor-assessment-demo" style="font-size: 16px; color: #315D8C">Vendor-assessment demo ↗</a>
 </div>
 </div>
 </article>
@@ -131,7 +141,7 @@
 <div style="max-width: 1240px; margin: 0 auto; padding: 48px 80px 64px; display: flex; align-items: flex-end; justify-content: space-between; gap: 48px">
 <div>
 <p style="margin: 0; font-size: 16px; font-weight: 600">Sarah Yuzi Sandström</p>
-<p style="margin: 10px 0 0; font-size: 14px; color: #656B73">HR Technology &amp; Systems · Data Protection · GRC · Automation</p>
+<p style="margin: 10px 0 0; font-size: 14px; color: #656B73">HR technology · User support · Systems improvement</p>
 </div>
 <div style="display: flex; align-items: baseline; gap: 28px; font-size: 14px">
 <a href="https://github.com/yuzi2021" style="color: #17191C">GitHub</a>

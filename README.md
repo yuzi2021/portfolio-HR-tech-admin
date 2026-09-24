@@ -1,16 +1,16 @@
 # Portfolio — Sarah Yuzi Sandström
 
-HR Technology & Systems · Data Protection · GRC · Automation
+HR technology · User support · Systems improvement
 
 **Live site:** https://yuzi2021.github.io/portfolio-HR-tech-admin/
 
-A static portfolio presenting HR technology and systems work alongside applied data-protection and GRC projects, built as plain HTML and CSS and deployed with GitHub Pages.
+A static portfolio presenting HR and learning technology operations work — user support, troubleshooting, testing, documentation and practical automation — built as plain HTML and CSS and deployed with GitHub Pages.
 
 ## Pages
 
 - `/` — homepage
 - `/projects/` — project index
-- `/projects/privacy-security-awareness/` — Privacy & Security Awareness case study
+- `/projects/privacy-security-awareness/` — GDPR guide & staff workshop case study
 - `/about/` — about
 - `/cv/` — CV
 
